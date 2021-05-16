@@ -1,5 +1,6 @@
 ---
-title: "Rust const-fn compile-time SUBLEQ interpreter"
+layout: post
+title: "Rust Const-fn Compile-time SUBLEQ Interpreter"
 ---
 With the [minimal subset of `const fn`](https://github.com/rust-lang/rust/issues/53555) becoming stable soon (in the second next Rust version), I wanted to give const fns a try and test what is possible with them.  
 We implemented a compile-time SUBLEQ interpreter which only uses const-fns, which you can find [on the playground](https://play.rust-lang.org/?version=nightly&mode=release&edition=2015&gist=82cc33ea9cb221812a4794bb47e6bf50).
