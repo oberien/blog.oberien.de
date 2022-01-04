@@ -2,4 +2,4 @@ theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 title: oberien's Blog
-description: Tech blabber about crypto(graphy), rust and other personal interests
+description: Tech blabber about cryptography, rust and other personal interests
