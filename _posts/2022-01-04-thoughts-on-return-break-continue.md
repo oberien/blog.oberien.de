@@ -283,5 +283,5 @@ In the end I just went with the standard `return`, `break` and `continue`.
 
 ---
 
-Discussion [on reddit]().
+Discussion [on reddit](https://www.reddit.com/r/rust/comments/rvr9zx/thoughts_on_return_break_and_continue/).
 
