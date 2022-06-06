@@ -9,8 +9,8 @@ title: "Comparison of Closures in different Languages"
 
 Closures, also called lambdas, inline functions, or anonymous functions, are functions
 that use variables from the outer scope, which they "close over".
-Recently, I've wanted to implement closures in rebo, a statically
-type-checked rust-inspired scripting language.
+Recently, I've wanted to implement closures in [rebo](https://github.com/oberien/rebo),
+a statically type-checked rust-inspired scripting language.
 Thus, I've been looking into how different languages implement and handle closures
 to compare and find a solution for rebo.
 
