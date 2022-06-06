@@ -771,7 +771,7 @@ and signifies the intend better.
 
 ---
 
-Discussion on [r/rust]().
+Discussion on [r/rust](https://www.reddit.com/r/rust/comments/v5zekj/).
 
 ---
 
