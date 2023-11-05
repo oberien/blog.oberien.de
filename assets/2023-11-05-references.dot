@@ -1,0 +1,93 @@
+digraph {
+    rankdir = LR;
+    # papers
+    node [shape=rect];
+    chi08mark[label = "Paper\n\nThe Cost of Interrupted Work:\nMore Speed and Stress"];
+    chi2004[label = "Paper\n\nIf Not Now, When?:\nThe Effects of Interruption at Different\nMoments Within Task Execution"];
+    taskdiary[label = "Paper\n\nA Diary Study of Task\nSwitching and Interruptions"];
+    chi2007[label = "Paper\n\nDisruption and Recovery of Computing Tasks:\nField Study, Analysis, and Directions"];
+    chi2005[label = "Paper\n\nNo Task Left Behind?\nExamining the Nature\nof Fragmented Work"]
+    
+    chi08mark -> chi2004 [label = "[1]"]
+    chi08mark -> taskdiary [label = "[3]"];
+    chi08mark -> chi2007 [label = "[9]"];
+    
+    # blogs
+    node [shape=oval]
+    devinterrupted[label = "Dev Interrupted\n\n3 Proven Ways To\nImprove Dev Focus"];
+    devinterrupted -> chi08mark;
+    
+    loom[label = "Loom\n\nThe Cost of Context Switching\n(and How To Avoid It)"];
+    loom -> chi08mark;
+    
+    paladin[label = "Paladin\n\nDealing with Work Interruptions"]
+    paladin -> chi08mark [label = "Quote"];
+    
+    lifehacker[label = "lifehacker\n\nHow Long It Takes\nto Get Back on Track\nAfter a Distraction"];
+    lifehacker -> chi08mark [style=dotted];
+    lifehacker -> fastcompany;
+    
+    themuse[label = "the muse\n\nThis Is Nuts: It Takes Nearly\n30 Minutes to Refocus\nAfter You Get Distracted"];
+    themuse -> lifehacker;
+    
+    fastcompany[label = "Fast Company - Interview\n\nWorker, Interrupted: The\nCost of Task Switching"];
+    fastcompany -> gloriamark;
+    
+    idonethis[label = "idonethis\n\nHow Distractions At Work\nTake Up More Time Than You Think"];
+    idonethis -> chi08mark;
+    
+    ideatovalue[label = "idea to value\n\nIt takes 23 minutes to regain focus\nafter a distraction: Task Switching"];
+    ideatovalue -> chi08mark;
+    ideatovalue -> fastcompany;
+    
+    leaddev[label = "LeadDev\n\nManaging the chaos\nof context switching"];
+    leaddev -> chi08mark;
+    
+    getabstract[label = "getabstract\n\nTwenty-Three Minutes"];
+    getabstract -> chi08mark [style=dotted];
+    getabstract -> fastcompany;
+    
+    gallup[label = "gallup - Interview\n\nToo Many Interruptions at Work?"];
+    gallup -> gloriamark;
+    
+    journalstar[label = "JournalStar\n\nFrequent emails, phone call interruptions\naffecting worker productivity"];
+    journalstar -> gallup;
+    
+    togglblog[label = "togglblog\n\nHow to Get Back on Track\nWhen You Get Distracted at Work"];
+    togglblog -> chi08mark;
+    
+    isrforum[label = "Presentation\n\nThe Challenge of Managing Digital\nInformation in the Workplace - Gloria Mark"];
+    isrforum -> gloriamark;
+    
+    productivityjunkie[label = "Productivityjunkie\n\n23 minutes 15 seconds\nand the mystery of sugar cravings"];
+    productivityjunkie -> notestoself;
+    
+    brightdevelopers[label = "Bright Developers\n\nThe Cost of Interruption\nfor Software Developers"];
+    brightdevelopers -> fastcompany;
+    
+    wsj[label = "Wall Street Journal\n\nWorkplace Distractions: Here's Why You\nWon't Finish This Article"];
+    wsj -> gloriamark;
+    
+    ironistic[label = "Ironistic\n\nThe Cost of Distractions\non Developers!"];
+    ironistic -> wsj;
+    
+    jazzhanley[label = "Jazz Hanley\n\nReclaim the 23 minutes\nyou lose every time\nyou're distracted at work"];
+    jazzhanley -> chi08mark;
+    
+    devmio[label = "devmio\n\nAnd it’s gone — The\ntrue cost of interruptions"];
+    devmio -> wsj;
+    
+    stephaniecmitchell[label = "Stephanie C. Mitchell\n\nWhat's Distracting\nYou From Writing?"];
+    stephaniecmitchell -> chi2005;
+    
+    devbizops[label = "devbizops\n\nGetting into the\nDeveloper Flow State"];
+    devbizops -> hbr;
+    
+    hbr[label = "Hardvard Business Review\n\nHelp Your Employees Find Flow"];
+    hbr -> gallup;
+    
+    # unproven
+    notestoself[label = "??? Podcast Notes to Self ???", style=dotted];
+    notestoself -> gloriamark;
+    gloriamark[label = "Gloria Mark said it", style=dotted];
+}
