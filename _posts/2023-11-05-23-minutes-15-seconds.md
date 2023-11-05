@@ -30,6 +30,10 @@ So in the end, where do the 23 minutes and 15 seconds come from? They are mentio
 
 ---
 
+Discussion on [r/programming](https://www.reddit.com/r/programming/comments/17ooxwe/interruptions_cost_23_minutes_15_seconds_right/).
+
+---
+
 Here is the reference graph of all posts and papers I've mentioned in this post and a list of their links.
 
 ![](/assets/2023-11-05-references.svg)
