@@ -10,7 +10,7 @@ I just wanted to quickly reference this fact to a colleague. Quick search for th
 ### Papers
 
 Most of the posts mentioning the number refer to the paper [The Cost of Interrupted Work: More Speed and Stress](https://ics.uci.edu/~gmark/chi08-mark.pdf). The authors performed a study investigating different effects of interruptions during long tasks.  
-Contrary to the quoted number, the study found out that the time spent on only the original task was in fact lower when interruptions were present (20.31 and 20.60 min) compared to no interruptions (22.77 min). The paper never goes into details regarding the recovery time between finishing the interruption and getting back to the original task. The paper never mentions the number `23`.
+Contrary to the quoted number, the study found out that the time spent on only the original task was in fact lower when interruptions were present (20.31 and 20.60 min) compared to no interruptions (22.77 min), albeit with much higher experienced stress. The paper never goes into details regarding the recovery time between finishing the interruption and getting back to the original task. The paper never mentions the number `23`.
 
 Maybe it's in a different paper? Related Work? References?
 * [A Diary Study of Task Switching and Interruptions](http://erichorvitz.com/taskdiary.pdf) let participants record interruption diaries. The paper does not include or mention task switch recovery time. Its primary result is that the average person has 50 task switches per week.
